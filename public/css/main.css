@@ -528,6 +528,9 @@ video {
 .hidden {
   display: none;
 }
+.h-6 {
+  height: 1.5rem;
+}
 .w-1\/6 {
   width: 16.666667%;
 }
@@ -567,6 +570,12 @@ video {
 .bg-yellow-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
+}
+.bg-wave-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 23'%3E%3Cpath d='M0,0 L8,0 Q16,23 24,0 L32,0 L32,23 L0,23 Z' fill='white'/%3E%3C/svg%3E");
+}
+.bg-repeat-x {
+  background-repeat: repeat-x;
 }
 .p-2 {
   padding: 0.5rem;
