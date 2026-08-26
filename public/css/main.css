@@ -542,6 +542,9 @@ video {
 .hidden {
   display: none;
 }
+.h-16 {
+  height: 4rem;
+}
 .w-1\/6 {
   width: 16.666667%;
 }
@@ -602,11 +605,17 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
 }
+.bg-wave-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 23'%3E%3Cpath d='M0,0 L8,0 Q16,23 24,0 L32,0 L32,23 L0,23 Z' fill='white'/%3E%3C/svg%3E");
+}
 .bg-wave-pattern-dots {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 23'%3E%3Cpath d='M0,0 L8,0 Q16,23 24,0 L32,0 L32,23 L0,23 Z' fill='white'/%3E%3C/svg%3E");
 }
 .bg-repeat {
   background-repeat: repeat;
+}
+.bg-repeat-x {
+  background-repeat: repeat-x;
 }
 .p-2 {
   padding: 0.5rem;
@@ -676,6 +685,10 @@ video {
 .duration-500 {
   transition-duration: 500ms;
 }
+  .bg-wave-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0 C150,90 350,-40 500,40 C650,120 900,20 1200,60 L1200,120 L0,120 Z' fill='%23ffffff'%3E%3C/path%3E%3C/svg%3E");
+    background-size: 100% 100%;
+  }
 
   .bg-wave-pattern-dots {
     background-color: #f8fafc;
@@ -683,33 +696,33 @@ video {
     background-size: 18px 18px;
   }
 
-  .hover\:scale-105:hover {
+.hover\:scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-  .hover\:bg-pink-500:hover {
+.hover\:bg-pink-500:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(236 72 153 / var(--tw-bg-opacity, 1));
 }
 
-  .hover\:bg-white:hover {
+.hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-  .hover\:text-black:hover {
+.hover\:text-black:hover {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
-  .hover\:text-green-500:hover {
+.hover\:text-green-500:hover {
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity, 1));
 }
 
-  @media (min-width: 640px) {
+@media (min-width: 640px) {
 
   .sm\:w-auto {
     width: auto;
@@ -720,14 +733,14 @@ video {
   }
 }
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
 
   .md\:w-4\/6 {
     width: 66.666667%;
   }
 }
 
-  @media (min-width: 1024px) {
+@media (min-width: 1024px) {
 
   .lg\:block {
     display: block;
