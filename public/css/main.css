@@ -499,9 +499,27 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.bg-orange-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity, 1));
+}
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+.pt-20 {
+  padding-top: 5rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .font-bold {
   font-weight: 700;
